@@ -1,5 +1,5 @@
 # Cplusplus-Program
-# CS-230 Software Design Portfolio
+# CS-230 Software Design
 
 ## The Gaming Room and Software Requirements
 
