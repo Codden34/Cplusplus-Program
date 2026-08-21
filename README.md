@@ -1,1 +1,26 @@
 # Cplusplus-Program
+# CS-230 Software Design Portfolio
+
+## The Gaming Room and Software Requirements
+
+The Gaming Room was the client for this project, and their main objective was to expand their existing game, *Draw It or Lose It*, from its original Android environment into a web-based application that could operate across multiple platforms. The software needed to maintain unique games, teams, and players while also preventing duplicate information from being created within the system. The application also had to remain secure, scalable, and capable of operating through a centralized client-server architecture. The overall objective was to give The Gaming Room a more adaptable and interoperable system that could support future expansion without requiring them to build an entirely separate application for every operating platform.
+
+## What I Did Well
+
+I think one thing I did particularly well when developing this documentation was connecting the client's requirements directly to the technical decisions that were being made. Instead of simply stating that one operating system or architecture was better than another, I tried to delineate why that specific option would actually benefit The Gaming Room. As the project progressed, my evaluations became more comprehensive when comparing memory, storage, networking, security, scalability, and overall system performance between the different platforms. This helped me make recommendations that were based on the actual requirements of the application instead of automatically choosing the platform I was already familiar with. I think this made the final design more pragmatic because every recommendation had a purpose behind it.
+
+## How the Design Document Helped With Development
+
+Working through the design document was helpful because it gave me a clearer understanding of how the application should function before trying to develop every part of the code. Creating the domain model and identifying the relationships between the game, team, player, and GameService classes gave the program a more structured architecture that could be followed during development. It also helped delineate where each responsibility belonged within the system instead of trying to solve every problem while actively writing the code. Having that roadmap made the development process more methodical and allowed me to understand why certain classes, methods, and design patterns were being implemented instead of just adding them because the assignment required it.
+
+## What I Would Revise
+
+If I could revise one part of my work, I would go back to some of my earlier evaluations of the different operating platforms and expand on the reasoning behind my recommendations. Earlier in the project, I understood the fundamental differences between the platforms, but as the course progressed, my understanding of memory management, distributed systems, security, networking, and cloud architecture became much more substantial. I would use that additional knowledge to make some of the earlier comparisons more comprehensive and directly explain how those differences could influence application performance as the number of users and system requirements increased. I do not think my original approach was necessarily incorrect, but I could make the rationale behind those decisions more precise and technically defensible.
+
+## Interpreting the User's Needs
+
+I interpreted the user's needs by first looking at what The Gaming Room actually needed the application to accomplish before deciding what technology should support it. Requirements such as supporting multiple platforms, maintaining unique games and users, protecting information, and allowing the system to scale influenced the client-server architecture and the recommendations made throughout the design document. I think considering the user's needs is imperative because a system can be technically sophisticated and still fail if it does not solve the problem the client originally brought to the development team. The technology should support the client's requirements instead of forcing the client to restructure their requirements around whatever technology the developer prefers. Keeping that distinction in mind helped make the overall design more cohesive and aligned with the original objective of the project.
+
+## My Approach to Software Design
+
+My approach to designing the software was to break the system down into smaller and more manageable areas instead of attempting to design the entire application at once. I started by identifying the requirements and constraints, then moved into the domain model, architecture, operating platforms, memory, storage, networking, security, and finally the recommendations for implementation. This gave me a more disciplined way to analyze how one technical decision could influence another part of the system. In the future, I would continue using this type of structured approach because it allows me to identify potential problems earlier and evaluate the system from multiple perspectives before development begins. I would also continue comparing multiple solutions before making a final recommendation because there is rarely one platform or architecture that is automatically the optimal choice for every application.
